@@ -5,7 +5,7 @@
   .controller('LunchCheckController',LunchCheckController);
   function LunchCheckController($scope,$filter)
   {
-  $scope.LunchList="ik,do,tin";
+  $scope.LunchList="";
 
 
   $scope.checkLunch=function()
